@@ -1,0 +1,21 @@
+{
+    "name": "i-kostiuk/foxtrot-parser",
+    "description": "foxtrot.com.ua - парсер. Реалізовую методи за потребою. Якщо цікавить якийсь метод - пишіть, дороблю.",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Ivan Kostiuk",
+            "email": "mayzer.kostiuk@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Foxtrot\\": "src/"
+        }
+    }
+}
